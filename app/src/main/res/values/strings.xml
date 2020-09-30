@@ -4,4 +4,26 @@
     <string name="pass">Contraseña</string>
     <string name="ingresar">Ingresar</string>
     <string name="borrar">¿Has olvidado la contraseña?</string>
+    <string name="cumple">Cumple</string>
+    <string name="logo">logo</string>
+    <string name="nocumple">No cumple</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="indeterminado">Indeterminado</string>
+    <string name="pregunta1">¿La empresa cuenta con extintores?</string>
+    <string name="pregunta2">¿La empresa cuenta con salidas de emergencia para los trabajadores?</string>
+    <string name="pregunta3">¿La empresa cuenta con insumos basicos de primeros auxilios?</string>
+    <string name="pregunta4">¿La empresa cuenta con espacios para atender emergencias ?</string>
+    <string name="pregunta5">¿La infraestructura de la empresa es solida?</string>
+    <string name="pregunta6">¿Los trabajadores requieren medias especiales?</string>
+    <string name="pregunta7">¿Sale su lolsito?</string>
+    <string name="formulariof">Este formulario cuenta con una serie de preguntas destinadas a recopilar información respecto a la empresa auditada</string>
+    <string name="txtEmpresa">Ingrese datos de la empresa</string>
+    <string name="txtNomEmpresa">Nombre:</string>
+    <string name="txtRut">Rut:</string>
+    <string name="txtDireccion">Dirección:</string>
+    <string name="txtCorreo">Correo:</string>
+    <string name="txtRubro">Rubro:</string>
+    <string name="txtFono">Teléfono:</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnGuardar">Guardar</string>
 </resources>
