@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NomasAcidentes</string>
+    <string name="user">Usuario</string>
+    <string name="pass">Contraseña</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="borrar">¿Has olvidado la contraseña?</string>
+</resources>
