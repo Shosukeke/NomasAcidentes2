@@ -70,6 +70,7 @@
             android:id="@+id/txtuser"
             android:layout_width="312dp"
             android:layout_height="0dp"
+            android:layout_marginStart="51dp"
             android:layout_marginTop="224dp"
             android:layout_marginEnd="48dp"
             android:layout_marginBottom="99dp"
@@ -83,6 +84,7 @@
             android:textColorHint="#AAA3A3"
             app:layout_constraintBottom_toTopOf="@+id/btn_ingresar"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
