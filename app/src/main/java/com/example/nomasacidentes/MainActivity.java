@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.view.View;
 import java.sql.*;
 import android.widget.Button;
-import android.widget.ScrollView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                     ConnectOra conn =new ConnectOra("10.0.2.2","orcl","Portafolio","SEBA","qwerty");
 
                 }catch (Exception e){}*/
-                Intent login=new Intent(MainActivity.this, formulario.class);
+                Intent login=new Intent(MainActivity.this,GestionVista.class);
                 MainActivity.this.startActivity(login);
                 finish();
 
