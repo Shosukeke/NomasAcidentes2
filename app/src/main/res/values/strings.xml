@@ -26,4 +26,9 @@
     <string name="txtFono">Teléfono:</string>
     <string name="btnCancelar">Cancelar</string>
     <string name="btnGuardar">Guardar</string>
+    <string name="String">Solicitud de servicios</string>
+    <string name="txtRut2">Rut empresa:</string>
+    <string name="txtTipoServ">Tipo de servicio:</string>
+    <string name="txtFecha">Fecha:</string>
+    <string name="txtHora">Hora:</string>
 </resources>
