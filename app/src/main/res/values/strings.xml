@@ -15,7 +15,7 @@
     <string name="pregunta4">¿La empresa cuenta con espacios para atender emergencias ?</string>
     <string name="pregunta5">¿La infraestructura de la empresa es solida?</string>
     <string name="pregunta6">¿Los trabajadores requieren medias especiales?</string>
-    <string name="pregunta7">¿Sale su lolsito?</string>
+    <string name="pregunta7">¿Brinda equipamiento de seguirdad a los trabajadores?</string>
     <string name="formulariof">Este formulario cuenta con una serie de preguntas destinadas a recopilar información respecto a la empresa auditada</string>
     <string name="txtEmpresa">Ingrese datos de la empresa</string>
     <string name="txtNomEmpresa">Nombre:</string>

@@ -19,11 +19,8 @@ public class MainActivity extends AppCompatActivity {
         btn_ingresar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-               /* try {
-                    ConnectOra conn =new ConnectOra("10.0.2.2","orcl","Portafolio","SEBA","qwerty");
 
-                }catch (Exception e){}*/
-                Intent login=new Intent(MainActivity.this, formulario.class);
+                Intent login=new Intent(MainActivity.this, ScrollingActivity.class);
                 MainActivity.this.startActivity(login);
                 finish();
 
