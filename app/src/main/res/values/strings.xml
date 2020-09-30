@@ -4,4 +4,13 @@
     <string name="pass">Contraseña</string>
     <string name="ingresar">Ingresar</string>
     <string name="borrar">¿Has olvidado la contraseña?</string>
+    <string name="txtEmpresa">Ingrese datos de la empresa</string>
+    <string name="txtNomEmpresa">Nombre:</string>
+    <string name="txtRut">Rut:</string>
+    <string name="txtDireccion">Dirección:</string>
+    <string name="txtCorreo">Correo:</string>
+    <string name="txtRubro">Rubro:</string>
+    <string name="txtFono">Teléfono:</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnGuardar">Guardar</string>
 </resources>
