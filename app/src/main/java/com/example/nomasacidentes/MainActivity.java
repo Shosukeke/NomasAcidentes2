@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                     ConnectOra conn =new ConnectOra("10.0.2.2","orcl","Portafolio","SEBA","qwerty");
 
                 }catch (Exception e){}*/
-                Intent login=new Intent(MainActivity.this,GestionVista.class);
+                Intent login=new Intent(MainActivity.this,BotonesVistas.class);
                 MainActivity.this.startActivity(login);
                 finish();
 
