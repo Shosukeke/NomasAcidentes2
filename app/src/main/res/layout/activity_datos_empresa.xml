@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#CEF0FF"
+    android:background="#FFFFFF"
     tools:context=".DatosEmpresa">
 
     <TableLayout
@@ -33,7 +33,7 @@
                 android:layout_height="wrap_content"
                 android:layout_span="4"
                 android:text="@string/txtEmpresa"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textSize="18sp"
                 android:textStyle="normal|bold" />
         </TableRow>
@@ -51,7 +51,7 @@
 
                 android:layout_span="1"
                 android:text="@string/txtNomEmpresa"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
 
@@ -61,11 +61,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:ems="10"
+                android:hint="Nombre"
                 android:inputType="textPersonName"
                 android:shadowColor="#939393"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textColorHighlight="#00BCD4"
-                android:textColorHint="#03A9F4"
+                android:textColorHint="#ACACAC"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
         </TableRow>
@@ -82,7 +83,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:text="@string/txtRut"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
 
@@ -92,10 +93,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:ems="10"
+                android:hint="Rut"
                 android:inputType="textPersonName"
                 android:shadowColor="#939393"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textColorHighlight="#00BCD4"
+                android:textColorHint="#ACACAC"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
         </TableRow>
@@ -112,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:text="@string/txtCorreo"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
 
@@ -122,10 +125,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:ems="10"
+                android:hint="Correo"
                 android:inputType="textPersonName"
                 android:shadowColor="#939393"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textColorHighlight="#00BCD4"
+                android:textColorHint="#ACACAC"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
         </TableRow>
@@ -142,7 +147,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:text="@string/txtFono"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
 
@@ -152,10 +157,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:ems="10"
+                android:hint="Teléfono"
                 android:inputType="textPersonName"
                 android:shadowColor="#939393"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textColorHighlight="#00BCD4"
+                android:textColorHint="#ACACAC"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
         </TableRow>
@@ -172,7 +179,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:text="@string/txtDireccion"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
 
@@ -182,10 +189,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:ems="10"
+                android:hint="Dirección"
                 android:inputType="textPersonName"
                 android:shadowColor="#939393"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textColorHighlight="#00BCD4"
+                android:textColorHint="#ACACAC"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
         </TableRow>
@@ -202,7 +211,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:text="@string/txtRubro"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
 
@@ -212,10 +221,12 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="18sp"
                 android:ems="10"
+                android:hint="Rubro"
                 android:inputType="textPersonName"
                 android:shadowColor="#939393"
-                android:textColor="#2196F3"
+                android:textColor="#000000"
                 android:textColorHighlight="#00BCD4"
+                android:textColorHint="#ACACAC"
                 android:textSize="16sp"
                 android:textStyle="normal|bold" />
         </TableRow>
@@ -224,9 +235,9 @@
 
     <Button
         android:id="@+id/btnGuardar"
-        android:background="@drawable/button_log"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/button_log"
         android:text="@string/btnGuardar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnCancelar"
@@ -237,10 +248,10 @@
 
     <Button
         android:id="@+id/btnCancelar"
-        android:background="@drawable/button_log"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="104dp"
+        android:background="@drawable/button_log"
         android:text="@string/btnCancelar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
