@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class BotonesVistas extends AppCompatActivity {
 
-    Button btnInDatos, btnFormulario, btnSolicitud ;
+    Button btnInDatos, btnFormulario, btnSolicitud, btnHorario ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +19,8 @@ public class BotonesVistas extends AppCompatActivity {
         btnInDatos = findViewById(R.id.btnInDatos);
         btnFormulario = findViewById(R.id.btnFormulario);
         btnSolicitud = findViewById(R.id.btnSolicitud);
+        btnHorario = findViewById(R.id.btnHorario);
+
 
         btnInDatos.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -41,6 +43,14 @@ public class BotonesVistas extends AppCompatActivity {
             public void onClick(View v) {
                 Intent Solicitud=new Intent(BotonesVistas.this,SolicitudServicios.class);
                 BotonesVistas.this.startActivity(Solicitud);
+            }
+        });
+
+        btnHorario.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent horario=new Intent(BotonesVistas.this,HorarioVisitas.class);
+                BotonesVistas.this.startActivity(horario);
             }
         });
     }
