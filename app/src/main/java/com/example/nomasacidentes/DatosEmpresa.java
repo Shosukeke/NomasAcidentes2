@@ -43,6 +43,7 @@ public class DatosEmpresa extends AppCompatActivity {
     String telefono;
     String direccion;
     String rubro;
+    String hola;
 
 
     @Override
