@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class BotonesVistas extends AppCompatActivity {
 
-    Button btnInDatos, btnFormulario, btnSolicitud, btnHorario ;
+    Button btnInDatos, btnFormulario, btnSolicitud, btnHorario,btnListMejoras ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,6 +17,7 @@ public class BotonesVistas extends AppCompatActivity {
         setContentView(R.layout.activity_botones_vistas);
 
         btnInDatos = findViewById(R.id.btnInDatos);
+        btnListMejoras=findViewById(R.id.btnListMejora);
         btnFormulario = findViewById(R.id.btnFormulario);
         btnSolicitud = findViewById(R.id.btnSolicitud);
         btnHorario = findViewById(R.id.btnHorario);
@@ -29,6 +30,14 @@ public class BotonesVistas extends AppCompatActivity {
                 BotonesVistas.this.startActivity(datos);
             }
         });
+       btnListMejoras.setOnClickListener(new View.OnClickListener() {
+           @Override
+           public void onClick(View v) {
+               Intent mejoras = new Intent(BotonesVistas.this,ListMejoras.class);
+               BotonesVistas.this.startActivity(mejoras);
+           }
+       });
+
 
         btnFormulario.setOnClickListener(new View.OnClickListener() {
             @Override

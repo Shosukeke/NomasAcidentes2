@@ -11,6 +11,7 @@
     <string name="indeterminado">Indeterminado</string>
     <string name="pregunta1">¿La empresa cuenta con extintores?</string>
     <string name="pregunta2">¿La empresa cuenta con salidas de emergencia para los trabajadores?</string>
+    <string name="preguntaN">¿Desea Agregar una nueva pregunta?</string>
     <string name="pregunta3">¿La empresa cuenta con insumos basicos de primeros auxilios?</string>
     <string name="pregunta4">¿La empresa cuenta con espacios para atender emergencias ?</string>
     <string name="pregunta5">¿La infraestructura de la empresa es solida?</string>
@@ -22,6 +23,7 @@
     <string name="txtRut">Rut:</string>
     <string name="txtDireccion">Dirección:</string>
     <string name="txtCorreo">Correo:</string>
+    <string name="ListMejora">Listar Mejoras </string>
     <string name="txtRubro">Rubro:</string>
     <string name="txtFono">Teléfono:</string>
     <string name="btnCancelar">Cancelar</string>

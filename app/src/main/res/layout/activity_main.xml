@@ -78,7 +78,7 @@
             android:background="#ECEBED"
             android:ems="10"
             android:hint="@string/user"
-            android:inputType="textPersonName"
+            android:inputType="text"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textColorHint="#AAA3A3"
@@ -87,6 +87,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="223dp"
@@ -94,14 +95,24 @@
             android:layout_marginStart="116dp"
             android:layout_marginTop="33dp"
             android:layout_marginEnd="145dp"
+            android:contentDescription="TODO"
             app:layout_constraintBottom_toTopOf="@+id/txtuser"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.301"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.533"
-            app:srcCompat="@drawable/nmalogo"
-            android:contentDescription="TODO" />
+            app:srcCompat="@drawable/nmalogo" />
+
+        <TextView
+            android:id="@+id/msj2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:clickable="false"
+            android:editable="false"
+            app:layout_constraintStart_toStartOf="@+id/btnOlvidar"
+            app:layout_constraintTop_toBottomOf="@+id/btnOlvidar" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

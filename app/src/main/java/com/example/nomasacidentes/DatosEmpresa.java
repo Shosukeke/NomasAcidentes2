@@ -27,6 +27,10 @@ import org.json.JSONObject;
 import java.io.UnsupportedEncodingException;
 
 
+// solo mostrar datos cliente
+
+
+
 public class DatosEmpresa extends AppCompatActivity {
     Button btnCancelar;
     Button btnGuardar;
@@ -46,6 +50,7 @@ public class DatosEmpresa extends AppCompatActivity {
     String hola;
 
 
+    ///solo recolecion de datos
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

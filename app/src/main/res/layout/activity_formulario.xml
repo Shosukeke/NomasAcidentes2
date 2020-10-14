@@ -87,12 +87,6 @@
                     android:text="@string/nocumple"
                     android:textColor="#050505" />
 
-                <RadioButton
-                    android:id="@+id/p1inde"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/indeterminado"
-                    android:textColor="#050505" />
             </RadioGroup>
         </TableRow>
 
@@ -131,12 +125,6 @@
                     android:text="@string/nocumple"
                     android:textColor="#050505" />
 
-                <RadioButton
-                    android:id="@+id/p2inde"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/indeterminado"
-                    android:textColor="#050505" />
             </RadioGroup>
 
         </TableRow>
@@ -176,12 +164,6 @@
                     android:text="@string/nocumple"
                     android:textColor="#050505" />
 
-                <RadioButton
-                    android:id="@+id/p4inde"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/indeterminado"
-                    android:textColor="#050505" />
             </RadioGroup>
         </TableRow>
 
@@ -221,12 +203,6 @@
                     android:text="@string/nocumple"
                     android:textColor="#050505" />
 
-                <RadioButton
-                    android:id="@+id/p3inde"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="@string/indeterminado"
-                    android:textColor="#050505" />
             </RadioGroup>
 
         </TableRow>
