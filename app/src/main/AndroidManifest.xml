@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.nomasacidentes">
 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -11,13 +12,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".BotonesVistas"></activity>
-        <activity android:name=".HorarioVisitas"></activity>
+        <activity android:name=".SolicitudMejora"></activity>
+        <activity android:name=".BotonesVistas" />
+        <activity android:name=".HorarioVisitas" />
         <activity android:name=".formulario" />
         <activity android:name=".SolicitudServicios" />
         <activity android:name=".DatosEmpresa" />
         <activity android:name=".GestionVista" />
-        <activity android:name=".ScrollingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

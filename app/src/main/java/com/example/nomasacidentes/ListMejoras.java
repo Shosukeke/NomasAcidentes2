@@ -1,14 +1,30 @@
 package com.example.nomasacidentes;
 
-public class ListMejoras {
+import android.support.v4.app.Fragment;
+
+public class ListMejoras extends Fragment {
     private String nombre ;
     private String descripcion;
     private char estado =1;
 
-    public ListMejoras(String nombre, String descripcion, char estado) {
+//    public ListMejoras (String nombre, String descripcion, char estado) {
+//        this.nombre = nombre;
+//        this.descripcion = descripcion;
+//        this.estado = estado;
+//    }
+//
+//    public ListMejoras() {
+//
+//    }
+
+/* public ListMejoras(String nombre, String descripcion, char estado) {
         this.nombre = nombre;
         this.descripcion = descripcion;
         this.estado = estado;
+    }
+
+    public ListMejoras() {
+
     }
 
     public String getNombre() {
@@ -33,5 +49,6 @@ public class ListMejoras {
 
     public void setEstado(char estado) {
         this.estado = estado;
-    }
+    }*/
+
 }

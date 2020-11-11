@@ -33,4 +33,13 @@
     <string name="txtTipoServ">Tipo de servicio:</string>
     <string name="txtFecha">Fecha:</string>
     <string name="txtHora">Hora:</string>
+    <string name="no_cumple">no_cumple</string>
+    <string name="guardar">guardar</string>
+    <string name="action_buscar">action_buscar</string>
+    <string name="action_nuevo">action_nuevo</string>
+    <string name="action_opciones">action_opciones</string>
+    <string name="acesoria">Asesoria Accidentes</string>
+    <string name="txtNombreMejora">Nombre Mejora</string>
+    <string name="txtDescripcionMejora">Descripcion Mejora</string>
+    <string name="lblEmpresaMejora">TextView</string>
 </resources>

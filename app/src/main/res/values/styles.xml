@@ -15,5 +15,13 @@
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+        <!-- nav. -->
+        <style name="navVar" parent="Theme.AppCompat.Light.DarkActionBar">
+            <!-- colores. -->
+            <item name="colorPrimary">#0A9AFA</item>
+            <item name="colorPrimaryDark">#08CCE4</item>
+            <item name="colorAccent">@color/colorAccent</item>
+        </style>
+    9
 
 </resources>

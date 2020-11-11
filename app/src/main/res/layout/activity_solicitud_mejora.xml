@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SolicitudMejora">
+
+    <TextView
+        android:id="@+id/lblNombreMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="100dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/txtNomEmpresa" />
+
+    <EditText
+        android:id="@+id/txtNombreMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="@string/txtNombreMejora"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/txtDescripcionMejora"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/txtDescripcionMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="22dp"
+        android:ems="10"
+        android:hint="@string/txtDescripcionMejora"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/spiEstado"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:autofillHints="" />
+
+    <TextView
+        android:id="@+id/lblDescripcionMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="29dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblNombreMejora"
+        tools:text="Descripcion:" />
+
+    <TextView
+        android:id="@+id/lblEstadoMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="40dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblDescripcionMejora"
+        tools:text="Estado" />
+
+    <Spinner
+        android:id="@+id/spiEstado"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="38dp"
+        app:layout_constraintBottom_toTopOf="@+id/spiAutor"
+        app:layout_constraintEnd_toEndOf="@+id/txtDescripcionMejora"
+        app:layout_constraintStart_toStartOf="@+id/txtDescripcionMejora"
+        app:layout_constraintTop_toBottomOf="@+id/lblDescripcionMejora" />
+
+    <TextView
+        android:id="@+id/lblAutorMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="51dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblEstadoMejora"
+        tools:text="Autor" />
+
+    <TextView
+        android:id="@+id/lblEmpresaMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/lblEmpresaMejora"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblAutorMejora"
+        tools:text="Empresa" />
+
+    <Button
+        android:id="@+id/btnGuardarMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginBottom="84dp"
+        android:text="@string/btnGuardar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancelarMejora" />
+
+    <Button
+        android:id="@+id/btnCancelarMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="77dp"
+        android:layout_marginRight="77dp"
+        android:text="@string/btnCancelar"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnGuardarMejora"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Spinner
+        android:id="@+id/spiAutor"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/spiEmpresa"
+        app:layout_constraintStart_toStartOf="@+id/spiEmpresa"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spiEmpresa"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="113dp"
+        android:layout_marginBottom="111dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnCancelarMejora"
+        app:layout_constraintEnd_toEndOf="@+id/spiEstado"
+        app:layout_constraintStart_toStartOf="@+id/spiEstado"
+        app:layout_constraintTop_toBottomOf="@+id/spiEstado" />
+</android.support.constraint.ConstraintLayout>

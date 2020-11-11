@@ -5,7 +5,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
-
+import android.support.v7.app.AppCompatActivity;
+/*
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.AuthFailureError;
@@ -30,6 +31,8 @@ import java.io.UnsupportedEncodingException;
 // solo mostrar datos cliente
 
 
+
+ */
 
 public class DatosEmpresa extends AppCompatActivity {
     Button btnCancelar;
@@ -64,7 +67,7 @@ public class DatosEmpresa extends AppCompatActivity {
         final TextView txtTelefono = findViewById(R.id.txtTelefono);
         final TextView txtDireccion = findViewById(R.id.txtDireccion);
         final TextView txtRubro = findViewById(R.id.txtRubro);
-        final RequestQueue queue = Volley.newRequestQueue(this);
+        //final RequestQueue queue = Volley.newRequestQueue(this);
 
         btnCancelar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -73,7 +76,7 @@ public class DatosEmpresa extends AppCompatActivity {
             }
         });
 
-
+        /*
         btnGuardar.setOnClickListener(new View.OnClickListener() {
                                           @Override
                                           public void onClick(View v) {
@@ -147,4 +150,9 @@ public class DatosEmpresa extends AppCompatActivity {
 
 
     }
+
+
+         */
+    }
 }
+

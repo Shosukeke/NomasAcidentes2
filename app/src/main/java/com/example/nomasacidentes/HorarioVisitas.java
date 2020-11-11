@@ -2,7 +2,8 @@ package com.example.nomasacidentes;
 
 import android.os.Bundle;
 import android.widget.TextView;
-
+import android.support.v7.app.AppCompatActivity;
+/*
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.Request;
@@ -16,6 +17,9 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+
+*/
+
 public class HorarioVisitas extends AppCompatActivity {
 
     @Override
@@ -25,7 +29,7 @@ public class HorarioVisitas extends AppCompatActivity {
 
         final TextView txtHorario = (TextView) findViewById(R.id.txtHorario);
         final TextView txtHora = (TextView) findViewById(R.id.txtHora);
-
+        /*
         RequestQueue queue = Volley.newRequestQueue(this);
 //      Url del mock de prueba (Mocky es la API utilizada)
 //      Se utilizo este mock de prueba ya que el restFramework se encuentra en produccion
@@ -69,7 +73,10 @@ public class HorarioVisitas extends AppCompatActivity {
             }
         });
         queue.add(jsonObjectRequest);
+        /*
+         */
     }
 
 
 }
+
