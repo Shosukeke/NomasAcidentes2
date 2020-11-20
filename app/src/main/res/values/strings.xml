@@ -23,7 +23,7 @@
     <string name="txtRut">Rut:</string>
     <string name="txtDireccion">Dirección:</string>
     <string name="txtCorreo">Correo:</string>
-    <string name="ListMejora">Listar Mejoras </string>
+    <string name="ListMejora">Mejoras </string>
     <string name="txtRubro">Rubro:</string>
     <string name="txtFono">Teléfono:</string>
     <string name="btnCancelar">Cancelar</string>
@@ -42,4 +42,8 @@
     <string name="txtNombreMejora">Nombre Mejora</string>
     <string name="txtDescripcionMejora">Descripcion Mejora</string>
     <string name="lblEmpresaMejora">TextView</string>
+    <string name="txtEmpresaMejora">Empresa</string>
+    <string name="txtAutorMejora">empleado</string>
+    <string name="txtEstadoMejora">En proceso</string>
+    <string name="btnListarMejoras">Listar Mejoras</string>
 </resources>

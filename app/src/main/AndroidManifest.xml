@@ -12,7 +12,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".SolicitudMejora"></activity>
+        <activity android:name=".ListarMejoras"></activity>
+        <activity android:name=".SolicitudMejora" />
         <activity android:name=".BotonesVistas" />
         <activity android:name=".HorarioVisitas" />
         <activity android:name=".formulario" />

@@ -6,6 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".SolicitudMejora">
 
+    <EditText
+        android:id="@+id/txtEmpresaMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtEmpresaMejora"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAutorMejora" />
+
     <TextView
         android:id="@+id/lblNombreMejora"
         android:layout_width="wrap_content"
@@ -25,12 +39,12 @@
         android:layout_marginEnd="29dp"
         android:layout_marginRight="29dp"
         android:layout_marginBottom="29dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/txtNombreMejora"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toTopOf="@+id/txtDescripcionMejora"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <EditText
         android:id="@+id/txtDescripcionMejora"
@@ -38,13 +52,12 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="29dp"
         android:layout_marginRight="29dp"
-        android:layout_marginBottom="22dp"
+        android:autofillHints=""
         android:ems="10"
         android:hint="@string/txtDescripcionMejora"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/spiEstado"
         app:layout_constraintEnd_toEndOf="parent"
-        android:autofillHints="" />
+        app:layout_constraintTop_toTopOf="@+id/lblDescripcionMejora" />
 
     <TextView
         android:id="@+id/lblDescripcionMejora"
@@ -69,17 +82,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/lblDescripcionMejora"
         tools:text="Estado" />
-
-    <Spinner
-        android:id="@+id/spiEstado"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="38dp"
-        app:layout_constraintBottom_toTopOf="@+id/spiAutor"
-        app:layout_constraintEnd_toEndOf="@+id/txtDescripcionMejora"
-        app:layout_constraintStart_toStartOf="@+id/txtDescripcionMejora"
-        app:layout_constraintTop_toBottomOf="@+id/lblDescripcionMejora" />
 
     <TextView
         android:id="@+id/lblAutorMejora"
@@ -110,40 +112,62 @@
         android:id="@+id/btnGuardarMejora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="37dp"
-        android:layout_marginRight="37dp"
-        android:layout_marginBottom="84dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginRight="6dp"
         android:text="@string/btnGuardar"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnCancelarMejora" />
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnCancelarMejora"
+        app:layout_constraintEnd_toStartOf="@+id/btnCancelarMejora"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnCancelarMejora"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="77dp"
-        android:layout_marginRight="77dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="78dp"
         android:text="@string/btnCancelar"
-        app:layout_constraintBaseline_toBaselineOf="@+id/btnGuardarMejora"
-        app:layout_constraintEnd_toEndOf="parent" />
-
-    <Spinner
-        android:id="@+id/spiAutor"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/spiEmpresa"
-        app:layout_constraintStart_toStartOf="@+id/spiEmpresa"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/btnListarMejoras"
+        app:layout_constraintStart_toEndOf="@+id/btnGuardarMejora" />
 
-    <Spinner
-        android:id="@+id/spiEmpresa"
-        android:layout_width="0dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="113dp"
-        android:layout_marginBottom="111dp"
-        app:layout_constraintBottom_toTopOf="@+id/btnCancelarMejora"
-        app:layout_constraintEnd_toEndOf="@+id/spiEstado"
-        app:layout_constraintStart_toStartOf="@+id/spiEstado"
-        app:layout_constraintTop_toBottomOf="@+id/spiEstado" />
+    <EditText
+        android:id="@+id/txtAutorMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/txtAutorMejora"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEstadoMejora" />
+
+    <EditText
+        android:id="@+id/txtEstadoMejora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginRight="29dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txtEstadoMejora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDescripcionMejora" />
+
+    <Button
+        android:id="@+id/btnListarMejoras"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="@string/btnListarMejoras"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnCancelarMejora"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnCancelarMejora" />
+
 </android.support.constraint.ConstraintLayout>

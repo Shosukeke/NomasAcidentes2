@@ -27,7 +27,7 @@ public class BotonesVistas extends Fragment implements View.OnClickListener{
         Button btnHorario=(Button) rootView.findViewById(R.id.btnHorario);
 
 
-   //     ListMejora.setOnClickListener(this);
+       ListMejora.setOnClickListener(this);
        btnIngreso.setOnClickListener(this);
        btnForm.setOnClickListener(this);
         btnSolicitud.setOnClickListener(this);
@@ -39,7 +39,7 @@ public class BotonesVistas extends Fragment implements View.OnClickListener{
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.btnListMejora:
-                //ListMejora();
+                ListMejora();
                 break;
             case R.id.btnInDatos:
                 btnIngreso();
@@ -61,7 +61,7 @@ public class BotonesVistas extends Fragment implements View.OnClickListener{
     {
 
         Fragment fragment = null;
-        fragment = new ListMejoras();
+        fragment = new SolicitudMejora();
         replaceFragment(fragment);
 
     }

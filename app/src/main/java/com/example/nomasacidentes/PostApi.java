@@ -3,6 +3,8 @@ package com.example.nomasacidentes;
 
 
 import com.example.nomasacidentes.model.AseAccidente;
+import com.example.nomasacidentes.model.Empleado;
+import com.example.nomasacidentes.model.Empresa;
 import com.example.nomasacidentes.model.Fiscalizacion;
 import com.example.nomasacidentes.model.Login;
 import com.example.nomasacidentes.model.Mejora;
@@ -21,7 +23,7 @@ import retrofit2.http.PUT;
 public interface PostApi {
 
 
-    String root = "http://192.168.43.21:8000/";
+    String root = "http://192.168.0.8:8000/";
 
     String API_URL = root + "api/v1/";
 
@@ -57,5 +59,11 @@ public interface PostApi {
 
     @POST("Mejoras/")
     Call<Mejora> registrarMejora(@Body Mejora MejoraModel);
+
+    @GET("Empleados/")
+    Call<List<Empleado>> getEmpleado();
+
+    @GET("Empresas/")
+    Call<List<Empresa>> getEmpresa();
 
 }

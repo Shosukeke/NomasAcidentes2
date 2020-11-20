@@ -3,14 +3,15 @@ package com.example.nomasacidentes.model;
 public class Mejora {
 private String nombremejo;
     private String descripcionmejo;
-    private int validacionmejora;
-    private String autor;
-    private String empresa;
+    private String validacionmejora;
+    private int autor;
+    private int empresa;
 
     public Mejora() {
+
     }
 
-    public Mejora(String nombremejo, String descripcionmejo, int validacionmejora, String autor, String empresa) {
+    public Mejora(String nombremejo, String descripcionmejo, String validacionmejora, int autor, int empresa) {
         this.nombremejo = nombremejo;
         this.descripcionmejo = descripcionmejo;
         this.validacionmejora = validacionmejora;
@@ -34,27 +35,27 @@ private String nombremejo;
         this.descripcionmejo = descripcionmejo;
     }
 
-    public int getValidacionmejora() {
+    public String getValidacionmejora() {
         return validacionmejora;
     }
 
-    public void setValidacionmejora(int validacionmejora) {
+    public void setValidacionmejora(String validacionmejora) {
         this.validacionmejora = validacionmejora;
     }
 
-    public String getAutor() {
+    public int getAutor() {
         return autor;
     }
 
-    public void setAutor(String autor) {
+    public void setAutor(int autor) {
         this.autor = autor;
     }
 
-    public String getEmpresa() {
+    public int getEmpresa() {
         return empresa;
     }
 
-    public void setEmpresa(String empresa) {
+    public void setEmpresa(int empresa) {
         this.empresa = empresa;
     }
     //    validacionmejora = models.CharField(max_length=21,choices=ESTADOS_Mejora, default='')
